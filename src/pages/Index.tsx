@@ -12,7 +12,7 @@ const recipes = [
     description: 'Лучшая замена копченой колбасы из магазина! Филе индейки в пряном маринаде запекается в духовке. Хранится в холодильнике до 5 дней.',
     time: '40 мин + маринование',
     difficulty: 'Легко',
-    image: 'https://cdn.poehali.dev/files/image.png'
+    image: 'https://cdn.poehali.dev/files/изображение_2025-12-18_234434634.png'
   },
   {
     id: 2,
