@@ -117,27 +117,25 @@ const Index = () => {
                 className="overflow-hidden hover:shadow-lg transition-all duration-300"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="flex flex-col md:flex-row">
-                  <div className="md:w-64 md:h-48 h-56 overflow-hidden flex-shrink-0">
+                <div className="flex flex-col md:flex-row md:min-h-[200px]">
+                  <div className="md:w-72 w-full h-64 md:h-auto overflow-hidden flex-shrink-0">
                     <img 
                       src={recipe.image} 
                       alt={recipe.title}
                       className="w-full h-full object-cover transition-transform duration-300 hover:scale-110"
                     />
                   </div>
-                  <div className="flex-1 flex flex-col">
+                  <div className="flex-1 flex flex-col min-h-full">
                     <CardHeader className="pb-3">
-                      <div className="flex items-start justify-between gap-4">
-                        <CardTitle className="text-2xl">{recipe.title}</CardTitle>
-                        <div className="flex items-center gap-4 text-sm text-muted-foreground flex-shrink-0">
-                          <div className="flex items-center gap-1">
-                            <Icon name="Clock" size={16} />
-                            <span>{recipe.time}</span>
-                          </div>
-                          <div className="flex items-center gap-1">
-                            <Icon name="ChefHat" size={16} />
-                            <span>{recipe.difficulty}</span>
-                          </div>
+                      <CardTitle className="text-2xl mb-3">{recipe.title}</CardTitle>
+                      <div className="flex items-center gap-4 text-sm text-muted-foreground">
+                        <div className="flex items-center gap-1">
+                          <Icon name="Clock" size={16} />
+                          <span>{recipe.time}</span>
+                        </div>
+                        <div className="flex items-center gap-1">
+                          <Icon name="ChefHat" size={16} />
+                          <span>{recipe.difficulty}</span>
                         </div>
                       </div>
                     </CardHeader>
