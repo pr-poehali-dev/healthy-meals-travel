@@ -8,11 +8,11 @@ import { useToast } from '@/hooks/use-toast';
 const recipes = [
   {
     id: 1,
-    title: 'Роллы с овощами и креветками',
-    description: 'Лёгкие и сытные рисовые роллы с хрустящими овощами. Не требуют холодильника до 8 часов.',
-    time: '20 мин',
+    title: 'Ленивая «буженина» из индейки',
+    description: 'Лучшая замена копченой колбасы из магазина! Филе индейки в пряном маринаде запекается в духовке. Хранится в холодильнике до 5 дней.',
+    time: '40 мин + маринование',
     difficulty: 'Легко',
-    image: 'https://cdn.poehali.dev/projects/04890277-9c5d-4698-969e-73ac02856f9b/files/d4242d80-b884-4dfd-a945-c021cba95e8f.jpg'
+    image: 'https://cdn.poehali.dev/files/image.png'
   },
   {
     id: 2,
