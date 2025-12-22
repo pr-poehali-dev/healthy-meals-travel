@@ -237,6 +237,57 @@ const Index = () => {
           </div>
         </section>
 
+        <section className="mb-16">
+          <div className="text-center mb-10">
+            <div className="inline-flex items-center gap-2 bg-amber-500/10 text-amber-600 px-4 py-2 rounded-full mb-4 font-semibold">
+              <Icon name="Cookie" size={20} />
+              <span>Бонус</span>
+            </div>
+            <h2 className="text-4xl font-bold mb-4">Чем похрустеть в дороге</h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Полезные перекусы, которые не требуют холодильника и легко берутся с собой
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="text-4xl mb-3">🥜</div>
+                <CardTitle className="text-xl">Орехи и сухофрукты</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Миндаль, кешью, курага, финики. Порционно в маленькие пакетики — удобно и сытно.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="text-4xl mb-3">🍎</div>
+                <CardTitle className="text-xl">Фрукты</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Яблоки, груши, бананы. Моются легко, не пачкаются, дают энергию надолго.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow">
+              <CardHeader>
+                <div className="text-4xl mb-3">🍫</div>
+                <CardTitle className="text-xl">Батончики и хлебцы</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="text-base">
+                  Цельнозерновые хлебцы, протеиновые батончики без сахара, натуральные снеки из фруктов.
+                </CardDescription>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
+
         <section className="max-w-2xl mx-auto">
           <Card className="bg-gradient-to-br from-primary/5 to-secondary/5 border-2 border-primary/20 shadow-xl">
             <CardHeader className="text-center pb-4">
