@@ -52,7 +52,7 @@ const recipes = [
 5. Перемешиваем салат и наслаждаемся!`,
     time: '5 мин',
     difficulty: 'Легко',
-    image: 'https://cdn.poehali.dev/projects/04890277-9c5d-4698-969e-73ac02856f9b/files/5c70e9d9-fc3c-45c4-b8e8-67e91a1d4c16.jpg'
+    image: 'https://cdn.poehali.dev/projects/04890277-9c5d-4698-969e-73ac02856f9b/files/eeb7fca6-f2c7-43b9-a120-6142d8a0c873.jpg'
   },
   {
     id: 3,
@@ -77,7 +77,7 @@ const recipes = [
 6. В дорогу лучше завернуть в фольгу.`,
     time: '15 мин',
     difficulty: 'Легко',
-    image: 'https://cdn.poehali.dev/files/image.png'
+    image: 'https://cdn.poehali.dev/projects/04890277-9c5d-4698-969e-73ac02856f9b/files/8d39f07b-cb0c-472c-af98-1f8e736e0703.jpg'
   },
   {
     id: 4,
