@@ -318,7 +318,7 @@ const Index = () => {
               </a>
               
               <a 
-                href="https://t.me/+79888923260" 
+                href="https://t.me/+RjOAaGusPos1NDQ6" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-4 text-xl hover:opacity-80 transition-opacity"
