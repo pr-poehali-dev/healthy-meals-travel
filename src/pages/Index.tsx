@@ -52,7 +52,7 @@ const recipes = [
 5. Перемешиваем салат и наслаждаемся!`,
     time: '5 мин',
     difficulty: 'Легко',
-    image: 'https://cdn.poehali.dev/projects/04890277-9c5d-4698-969e-73ac02856f9b/files/eeb7fca6-f2c7-43b9-a120-6142d8a0c873.jpg'
+    image: 'https://cdn.poehali.dev/files/IMG_3301.JPG'
   },
   {
     id: 3,
