@@ -273,11 +273,11 @@ const Index = () => {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="text-4xl mb-3">🍫</div>
-                <CardTitle className="text-xl">Батончики и хлебцы</CardTitle>
+                <CardTitle className="text-xl">Сладости</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Цельнозерновые хлебцы, протеиновые батончики без сахара, натуральные снеки из фруктов.
+                  Натуральная пастила, песочное печенье, горький или молочный шоколад.
                 </CardDescription>
               </CardContent>
             </Card>
