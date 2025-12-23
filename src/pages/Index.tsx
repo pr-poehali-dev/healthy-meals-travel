@@ -281,6 +281,60 @@ const Index = () => {
           </div>
         </section>
 
+        <section className="max-w-2xl mx-auto mb-16">
+          <Card className="bg-gradient-to-br from-primary/5 to-secondary/5 border-2 border-primary/20">
+            <CardHeader className="text-center">
+              <CardTitle className="text-3xl mb-3">
+                Запишитесь на диагностику
+              </CardTitle>
+              <CardDescription className="text-base">
+                Получите персональную консультацию и индивидуальные рекомендации по питанию, разработанную специально для вас
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="flex flex-col gap-3">
+                <a 
+                  href="https://wa.me/79888923260" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-3 bg-primary text-primary-foreground hover:bg-primary/90 transition-colors py-3 px-6 rounded-lg font-semibold"
+                >
+                  <Icon name="MessageCircle" size={20} />
+                  <span>Написать в WhatsApp</span>
+                </a>
+                
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+                  <a 
+                    href="tel:+79888923260" 
+                    className="flex items-center gap-2 justify-center sm:justify-start text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    <Icon name="Phone" size={16} />
+                    <span>+7 (988) 892-32-60</span>
+                  </a>
+                  
+                  <a 
+                    href="https://t.me/+79888923260" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 justify-center sm:justify-start text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    <Icon name="Send" size={16} />
+                    <span>Telegram</span>
+                  </a>
+                  
+                  <a 
+                    href="mailto:pak1508@inbox.ru" 
+                    className="flex items-center gap-2 justify-center sm:justify-start text-muted-foreground hover:text-foreground transition-colors sm:col-span-2"
+                  >
+                    <Icon name="Mail" size={16} />
+                    <span>pak1508@inbox.ru</span>
+                  </a>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
         <footer className="mt-16 pt-8 border-t text-center text-sm text-muted-foreground">
           <p>© 2024 Здоровая еда в дорогу. Путешествуйте со вкусом!</p>
         </footer>
