@@ -261,11 +261,11 @@ const Index = () => {
             <Card className="hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="text-4xl mb-3">🍎</div>
-                <CardTitle className="text-xl">Фрукты</CardTitle>
+                <CardTitle className="text-xl">Фрукты и овощи</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-base">
-                  Яблоки, груши, бананы. Моются легко, не пачкаются, дают энергию надолго.
+                  Яблоки, груши, бананы, морковь. Моются легко, не пачкаются, дают энергию надолго.
                 </CardDescription>
               </CardContent>
             </Card>
