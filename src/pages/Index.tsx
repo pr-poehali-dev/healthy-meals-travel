@@ -162,9 +162,7 @@ const Index = () => {
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-            Вы устали от сухих бутербродов и лапши быстрого приготовления? 
-            Мы собрали <span className="font-semibold text-foreground">5 простых рецептов</span> полезной еды, 
-            которая останется свежей весь путь. Готовится за 5-25 минут!
+            Даже во время длительных поездках на поезде не обязательно сбивать свое питание и питаться лапшой быстрого приготовления и сухим пюре с сосисками. Я подготовила для вас <span className="font-semibold text-foreground">5 простых рецептов</span> полезной еды. Готовятся быстро и насыщают на долго!
           </p>
           
           <div className="flex flex-wrap justify-center gap-4 mb-12">
