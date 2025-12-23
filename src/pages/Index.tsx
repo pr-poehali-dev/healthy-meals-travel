@@ -156,10 +156,9 @@ const Index = () => {
           </div>
           
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-            Хватит есть<br />
-            <span className="text-muted-foreground line-through">дошираки</span>
-            <span className="text-primary"> вкусную еду</span>
-            <br />в поездах!
+            Хватит есть дошираки,<br />
+            <span className="text-primary">питайся вкусно и полезно</span><br />
+            даже в поезде
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
