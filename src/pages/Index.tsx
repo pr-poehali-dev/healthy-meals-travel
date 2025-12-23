@@ -281,46 +281,6 @@ const Index = () => {
           </div>
         </section>
 
-        <section className="max-w-2xl mx-auto">
-          <Card className="bg-gradient-to-br from-primary/5 to-secondary/5 border-2 border-primary/20 shadow-xl">
-            <CardHeader className="text-center pb-4">
-              <div className="mx-auto bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mb-4">
-                <Icon name="Download" size={32} className="text-primary" />
-              </div>
-              <CardTitle className="text-3xl mb-3">
-                Получите полный чек-лист бесплатно!
-              </CardTitle>
-              <CardDescription className="text-base">
-                Все 5 рецептов с фото, списками продуктов и пошаговыми инструкциями. 
-                Готовьте вкусную еду в дорогу за 5-25 минут!
-              </CardDescription>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-3">
-                <Input
-                  type="email"
-                  placeholder="Ваш email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  required
-                  className="flex-1 h-12 text-base"
-                />
-                <Button 
-                  type="submit" 
-                  size="lg"
-                  className="h-12 px-8 font-semibold bg-primary hover:bg-primary/90 text-primary-foreground"
-                >
-                  Скачать чек-лист
-                  <Icon name="ArrowRight" size={20} className="ml-2" />
-                </Button>
-              </form>
-              <p className="text-xs text-muted-foreground text-center mt-4">
-                Никакого спама. Только полезные рецепты!
-              </p>
-            </CardContent>
-          </Card>
-        </section>
-
         <footer className="mt-16 pt-8 border-t text-center text-sm text-muted-foreground">
           <p>© 2024 Здоровая еда в дорогу. Путешествуйте со вкусом!</p>
         </footer>
