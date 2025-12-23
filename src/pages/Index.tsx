@@ -77,7 +77,7 @@ const recipes = [
 6. В дорогу лучше завернуть в фольгу.`,
     time: '15 мин',
     difficulty: 'Легко',
-    image: 'https://cdn.poehali.dev/projects/04890277-9c5d-4698-969e-73ac02856f9b/files/8d39f07b-cb0c-472c-af98-1f8e736e0703.jpg'
+    image: 'https://cdn.poehali.dev/files/photo_5220126616636747334_y.jpg'
   },
   {
     id: 4,
