@@ -329,7 +329,7 @@ const Index = () => {
             </div>
             
             <a 
-              href="https://wa.me/79888923260" 
+              href="https://wa.me/79888923260?text=Здравствуйте!%20хочу%20записаться%20на%20диагностику%20и%20получить%20рекомендации%20по%20питанию" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-[#f5f1e8] text-[#3d4d42] hover:bg-[#ebe5d5] transition-colors py-4 px-10 rounded-full text-lg font-medium"
